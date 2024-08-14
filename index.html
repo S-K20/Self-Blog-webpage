@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Travel Blogs</title>
+    <meta name="description" content="A blog about my interests, thoughts, and passions.">
+    <meta name="author" content="Saurav Kumar">
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header styles */
+        header {
+            background-color: rgb(173, 185, 36);
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2em;
+        }
+
+        /* Navigation styles */
+        nav {
+            background-color: #20b2b2;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: rgb(26, 25, 25);
+            text-decoration: none;
+            font-size: 1.1em;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #ffffff;
+            color: #514ce6;
+        }
+
+        /* Blog posts section */
+        #blog-posts {
+            background-color: rgba(224, 244, 142, 0.546);
+            padding: 20px;
+        }
+
+        #blog-posts details {
+            background-color: white;
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s, box-shadow 0.3s;
+        }
+
+        #blog-posts details:hover {
+            background-color: #f0f0f0;
+            box-shadow: 0 4px 8px rgba(31, 243, 52, 0.2);
+        }
+
+        #blog-posts summary {
+            font-size: 1.2em;
+            cursor: pointer;
+            outline: none;
+            transition: color 0.3s;
+        }
+
+        #blog-posts summary:hover {
+            color: #2c84f7;
+        }
+
+        /* Open the details when targeted */
+        #blog-posts details:target {
+            open: true;
+        }
+
+        /* About section */
+        #about {
+            background-color: rgb(155, 146, 233);
+            padding: 20px;
+            text-align: center;
+        }
+
+        #about p {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 1.2em;
+        }
+
+        /* Contact section */
+        #contact {
+            background-color: rgb(39, 194, 224);
+            padding: 20px;
+            text-align: center;
+        }
+
+        #contact form {
+            display: inline-block;
+            text-align: left;
+        }
+
+        #contact label,
+        #contact input,
+        #contact textarea {
+            display: block;
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        #contact button {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        /* Image hover effect */
+        img {
+            max-width: 100%;
+            height: auto;
+            transition: transform 0.5s, box-shadow 0.5s;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        video{
+            max-width: 100%;
+            height: auto;
+            transition: transform 0.5s, box-shadow 0.5s;
+        }
+
+        video:hover{
+            transform: scale(1.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Travel Blog</h1>
+        <p>Exploring the world through videos, words, and images</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#unplanned-trip">The Unplanned Trip</a></li>
+            <li><a href="#nandi-hills">Nandi Hills</a></li>
+            <li><a href="#saff-final-2023">SAFF-FINAL-2023</a></li>
+            <li><a href="#first-prize">First Prize For Football</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="blog-posts">
+        <details id="unplanned-trip">
+            <summary>The Unplanned Trip 🤪</summary>
+            <p><strong>Summary:</strong> The unplanned trip, me and my friends went onto this amazing trip and made a bunch of memories.</p>
+            <p>Me and my friends just planned to go somewhere but no one had any idea where we should go so finally we took our bikes and went onto an unplanned trip, exploring the area and we landed to some of the amazing places out there.</p>
+            <img src="Blog-cover.jpeg" alt="Description of image 1">
+            <br>
+            <video controls>
+                <source src="Video-blog.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </details>
+        <details id="nandi-hills">
+            <summary>Nandi Hills⛰</summary>
+            <p><strong>Summary:</strong> The trip to Nandi Hills, a well-planned trip on a long weekend.</p>
+            <p>On a long weekend me and my boys planned to go somewhere in hilly area and we came across this amazing destination with a fantastic view of sunrise.</p>
+            <img src="photo_2024-07-30 08.49.16.jpeg" alt="Riding bike on highway">
+        </details>
+        <details id="saff-final-2023">
+            <summary>SAFF-FINAL-2023⚽️</summary>
+            <p><strong>Summary:</strong> SAFF is a football tournament. That is South Asian Football Federation.</p>
+            <p>On 4th July 2023 the final match of SAFF was there and it was a match between India and Kuwait in which India won in penalties, it was a fantastic moment to watch them playing especially SUNIL CHHETRI.</p>
+            <img src="SAFF Final.jpg" alt="3 Boys sitting with hands on each other's shoulder, with the center boys wearing jersey of the Captain of the Indian Football Team Sunil Chhetri">
+            <br>
+            <video controls>
+                <source src="SAFF_WON.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </details>
+        <details id="first-prize">
+            <summary>First Prize For Football🥇⚽️</summary>
+            <p><strong>Summary:</strong> Won Gold in medal at university level football competition.</p>
+            <p>Receiving Gold medal and a certificate from principal.</p>
+            <img src="Cover-3.jpeg" alt="Receiving Gold medal and a certificate from principal.">
+        </details>
+    </section>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Saurav, a fresh and energetic CSE graduate, with specialization as a full-stack web developer, capable of multitasking, working with teams and committed to work/project. Willing to slog and willing to learn, a passionate blogger about exploring the opportunity to make memories and to become better day by day. This blog is a place where I share my thoughts, experiences, and stories. I hope you find it engaging and insightful.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:sauravkumar.applicant@gmail.com">sauravkumar.applicant@gmail.com</a></p>
+        <p>Follow me on:
+            <a href="https://x.com/Xenon0824?t=tqv7MMn195ppI2HRuYE_Ig&s=08" target="_blank">Twitter</a>,
+            <a href="https://www.instagram.com/saurav.tiwari.t.2.0/" target="_blank">Instagram</a>
+        </p>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Saurav Kumar. All rights reserved.</p>
+        <p><a href="#privacy">Privacy Policy</a> | <a href="#terms">Terms of Service</a></p>
+    </footer>
+</body>
+</html>
