@@ -28,6 +28,9 @@ Simply double-click on index.html
 Or open it in your favorite browser
 
 🎨 Customization
+
 🔹 Modify index.html to update blog content.
+
 🔹 Edit styles.css to change the design, fonts, or colors.
+
 🔹 Add new media files inside the assets folder.
