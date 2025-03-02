@@ -16,6 +16,7 @@ A minimalistic and responsive blog webpage built with HTML & CSS, designed to sh
 
 
 🛠 How to Use
+
 1️⃣ Clone the Repository
 git clone https://github.com/S-K20/Self-Blog-webpage.git
 
